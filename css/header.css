@@ -1,0 +1,61 @@
+body {
+    font-family: 'Cinzel', serif;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+
+    background-image: url("../img/logo.png");
+    background-position: center;
+    background-size: 700px;
+    background-repeat: no-repeat;
+    color: #c8ccbd;
+    text-align: center;
+    padding: 4em;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: #f6e88e;
+    padding: 0.5em;
+    box-shadow: 0px 5px 10px 0px rgba(92, 82, 21, 0.664);
+
+}
+
+nav a {
+    color: #000000;
+    text-decoration: none;
+    padding: 0.5em 1em;
+    margin: 0 1em;
+}
+
+nav a:hover {
+    background-color: #777;
+}
+
+section {
+    padding: 2em;
+    
+    
+}
+   .imagem {
+    border-radius: 50%;
+    position: sticky;
+    max-width: 80%;
+
+
+   };
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
