@@ -25,19 +25,8 @@
 }
 
 .sidebar a:hover {
-    color: #f1f1f1;
-}
-
-.toggle-btn {
-    font-size: 30px;
-    cursor: pointer;
-    color: white;
-    margin-left: 20px;
-    transition: 0.5s;
-}
-
-.sidebar-closed main {
-    margin-left: 0;
+    background-color: #797979;
+    
 }
 
 main {

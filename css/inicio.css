@@ -1,19 +1,28 @@
 @media (max-width: 768px) {
     #inicio {
-        flex-direction: column;
+        flex-direction: row;
         align-items: center;
-        display: flexbox;
+        display: block;
         flex-wrap: nowrap;
+        padding: 10px;
+
         text-align: justify;
     }
 
-    #imagem {
-        max-width: 100%;
-        margin-bottom: auto;
-        height: auto; 
+    #pic1 {
+        max-width: 20vw;
+        max-height: 20vh; 
         padding: 10px;
-        flex-direction: column; 
+        margin: auto;
     }
+    #texto  {
+        overflow: auto; 
+        max-height: 50vh; 
+        max-width: fit-content;
+        padding: 10px; 
+        box-sizing: border-box; 
+    }
+
 }
 #imagem {
     max-width: 100%;
@@ -21,14 +30,15 @@
     display: flex;
     padding: 10px;
     flex-direction: row;
+}
+#pic1 {
+    border-radius: 50%;
 
 }
-
 #inicio {
     position: sticky;
     align-items: center;
     overflow-x: auto;
-
     font-family: 'Open Sans', sans-serif;
     background-color: #1c1b1b;
     margin: 10px;
