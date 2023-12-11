@@ -2,10 +2,19 @@
     #inicio {
         flex-direction: column;
         align-items: center;
-        text-align: center;
+        display: flexbox;
+        flex-wrap: nowrap;
+        text-align: justify;
+    }
+
+    #imagem {
+        max-width: 100%;
+        margin-bottom: auto;
+        height: auto; 
+        padding: 10px;
+        flex-direction: column; 
     }
 }
-
 #imagem {
     max-width: 100%;
     height: 200px;
