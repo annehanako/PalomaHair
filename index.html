@@ -7,36 +7,57 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PALOMA HAIR</title>
     <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/inicio.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Cinzel&family=Open+Sans:ital,wght@1,500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel&family=Open+Sans:ital,wght@1,500&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
     <header>
-        <h1>
-        </h1>
+        <nav>
+            <a href="contato.html">Contato</a>
+            <a href="curso.html">Curso</a>
+        </nav>
     </header>
 
-    <nav>
-        <a href="#home">Home</a>
-        <a href="#services">Serviços</a>
-        <a href="#gallery">Galeria</a>
-        <a href="#contact">Contato</a>
-    </nav>
+    <main>
+        <section id="inicio">
+                <div id="photo-controls">
+                    <button onclick="prevPhoto()">❮</button>
+                    <button onclick="nextPhoto()">❯</button>
+                </div>
+                <div id="images">
+                    <div class="photo-container">
+                        <img id="pic1" src="img/pic1.jpg" type="img/jpg">
+                    </div>
+                    <div class="photo-container">
+                        <img id="pic2" src="img/pic2.jpg" type="img/jpg">
+                    </div>
+                    <div class="photo-container">
+                        <img id="pic3" src="img/pic3.jpg" type="img/jpg">
+                    </div>
+                    <div class="photo-container">
+                        <img id="pic4" src="img/pic4.jpg" type="img/jpg">
+                    </div>
+                </div>
+            </div>
+            <p> 
+Olá, queridos visitantes!
 
-    <section>
-        <h2>Boas Vindas!</h2>
-        <p>Eu sou Paloma, profissional de estética a mais de uma década e com diversas novidades para você encontrar seu estilo perfeito.</p>
-        <img src="img/pfp.jpg" alt="Foto Paloma" class="imagem">
-        <div class="information">
-            <p class="location"
-        </div>
-    </section>
+Eu sou a Paloma, uma apaixonada pelo universo capilar com mais de uma década de experiência dedicada a fazer a magia acontecer nos cabelos das pessoas. Ao longo desses anos, desenvolvi uma profunda paixão por transformar não apenas os fios, mas também a autoestima e confiança de cada cliente que passa pela minha cadeira.
+
+Agora, estou empolgada em compartilhar não apenas minhas habilidades de cabeleireira, mas também toda a bagagem que acumulei ao longo dessa jornada. Decidi dar um passo além e me tornar uma educadora, transmitindo meu conhecimento para outros profissionais e entusiastas da beleza que desejam aprimorar suas habilidades.
+            </p>
+         
+    </main>
+    <script src="/js/script.js"></script>
+    <script src="/js/photocontrols.js"></script>
+
     <footer>
         &copy; 2023 Paloma Hair | All Rights Reserved
     </footer>
-
 </body>
 
 </html>
